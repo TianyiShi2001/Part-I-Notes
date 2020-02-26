@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "nexus-serif";
+  src: url("../fonts/nexus-serif/NexusSerifWebPro-Regular.woff");
+}
+
+@font-face {
+  font-family: "nexus-serif";
+  src: url("../fonts/nexus-serif/NexusSerifWebPro-Bold.woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "nexus-serif";
+  src: url("../fonts/nexus-serif/NexusSerifWebPro-Italic.woff");
+  font-style: italic;
+}
+@font-face {
+  font-family: "nexus-serif";
+  src: url("../fonts/nexus-serif/NexusSerifWebPro-BoldItalic.woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+.book.font-family-0 {
+  font-family: nexus-serif, source-han-serif-sc, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.book.font-family-1 {
+  font-family: Arial, Helvetica, source-han-sans-simplified-c, sans-serif, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#biaoti {
+  font-family: source-han-serif-sc, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.3em;
+}

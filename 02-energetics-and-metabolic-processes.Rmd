@@ -1,0 +1,87 @@
+(ref:p2) Energetics and Metabolic Processes
+
+```{r echo=FALSE, results="asis"}
+if(knitr::is_latex_output()){
+  cat("# (PART) (ref:p2) {-} ")
+} else {
+  cat("# (PART) Energetics and Metabolic Processes {-} ")
+}
+```
+
+# An Introduction to Paper II: Energetics and Metabolic Processes {#p2}
+
+The aims of this course are:    
+Note that each of the courses in Part I contain material that is relevant to each and every other course; it is crucial that you interrelate this material as appropriate. Of particular relevance to this course is material on structural biology, proteins, and the control of prokaryotic gene expression.
+
+To inform you of the diverse metabolic capabilities possessed by animal, bacterial and plant cells;
+To introduce you to the principles that underpin the diversity of metabolic processes that occur in different cell types;
+To introduce you to the types of control that regulate metabolic transformations.
+By the end of this course you should understand:
+Energy transduction by mitochondrial, bacterial and thylakoid membranes. The principles of, and the evidence for, the chemiosmotic theory;
+References:
+There are several Molecular Biology/Biochemistry textbooks that provide adequate factual material. None (other than perhaps 'The Genetic Switch') are good at providing a 'feel' for the strategies and approaches that lead to new discoveries and for consolidating these discoveries into biological understanding. Remember that knowing the facts is not enough; more important is knowing how we get to know the facts'.
+
+Molecular Biology of the Cell (Alberts, Bray, Lewis, Raff, Roberts and Watson, 2008, Garland); now superceded by Essential Cell Biology-same authors (1998)
+
+# Bacterial Warfare {#bacterial-warfare}
+
+## Bacterial Cell Envelope {#bacterial-cell-envelope}
+
+### The outer membrane of Gram-negative bacteria
+
+- not a phospholipid bilayer
+    - phospholipid only in the inner leaflet
+    - outer leaflet is composed of glycolipids, principally lipopolysaccharide (LPS)
+- Most proteins are:
+    - lipoproteins
+        - contain lipid moieties attahced to an N-terminal cys
+        - these lipid moieties embed lipoproteins in the inner leaflet of the OM (not transmembrnae proteins)
+    - β-barrel proteins
+        - constitute almost all of the integral, transmembrane proteins of the outer membrane
+        - β-sheets that are wrapperinto cylinders
+        - almost all comprise a even number of β-strands (VDAC is an exception)
+        - a.k.a. OMPs
+        - OmpF, OmpC
+            - allow passive diffusion of small molecules such as mono- and disaccharides and amino acids
+            - 16 TM β strands
+            - exist as trimers
+            - very abundant; ~250000 copies per cell
+        - LamB (18 TM β strands) and PhoE (16 TM β strands) 
+            - also exist as trimers
+            - funciton in the diffusion of specific small molecules, maltose or maltodextrins and anions such as $\text{PO}_4^{3-}$
+        - OmpA
+            - another abundant OMP
+            - monomeric
+            - exist in two different conformations: a minor form with an unkown number of transmembrane strands can function as a porin, but the major, nonporin form has only 8 TM strands, and the periplasmic domain of this form performs a largely structural role
+        - An additional class of OMPs with 20-24 TM strands are present at much lower levels, and they function as gated channels in the high affinity transport of large ligands such as Fe-chelates or vitamins such as VB-12
+- Few enzymes
+    - Phospholipase (PldA)
+    - Protease (OmpT)
+    - LPS-modifying enzyme (PagP)
+    
+#### LPS
+
+LPS plays a critical role in the barrier function of the OM. It is a glucosamine disaccharide with 7 or 8 acyl chains, a polysaccharide core, and an extended polysaccharide chain that is called the O-antigen. 
+
+The acyl chains are largedly saturated, and this facilitates tight packing 
+
+The nonfluid continuum formed by the LPS molecules is a very effective barrier for hydrophobic molecules
+
+### The peptidoglycan cell wall
+
+Peptidyclycan is made up of repeating unites of the disaccharide N-acetyl glucosamine-N-acetyl muramic acid (NAG-NAM), which are cross-linked by pentapeptide side chains
+
+The OM is staped to the underlying peptidoglycan by a lipoprotein called Lpp. Lpp is th emost abundant protein in *E. coli*., more than 500,000 molecules per cell.
+
+### The inner membrane
+
+The IM is a phospholipid bilayder. In *E. coli* the principal phospholipids are phosphatidyl ethanolamine and phosphatidyl glycerol (lesser amounts of phosphatidylserine and cardiolipin)
+
+### The Gram-positive cell envelope
+
+Compared to Grame-negatives, Grame-posirives lack the outer membrane, and have a thicker cell wall composed of several of peptidoglycan many times thicker than is found in *E. coli*.
+
+Threading throuth these layers of peptidoglycan are long anionic polymers, called teichoic acids which are composed largely of glycerol phosphate, glucosyl phosphate, or ribitol phosphate repeats. Teichoic acids are divided into wall TA (WTA) and lipotechoic acid (LTA). WTA are covalently attached to peptidoglycan ; lipoteichoic acids are anchored to the head groups of membrane lipids. TA accound for over 60% of the mass of the G+ cell wall. 
+
+The surfaces of G+ are decorated with a variety of proteins, some of which are analogous to proteins found in the periplasm of G- bacteria.
+

@@ -1,0 +1,11 @@
+(ref:p5) General Paper
+
+```{r echo=FALSE, results="asis"}
+if(knitr::is_latex_output()){
+  cat("# (PART) (ref:p5) {-} ")
+} else {
+  cat("# (PART) General Paper {-} ")
+}
+```
+
+# An Introduction to Paper V: General Paper {#p5}

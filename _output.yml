@@ -1,0 +1,20 @@
+bookdown::gitbook:
+  split_by: section
+  css: [src/css/main.css, src/css/fonts.css]
+  includes:
+    in_header: src/partials/header.html
+  config:
+    toc:
+      collapse: section
+      before: | 
+        <li id="biaoti">Biochemistry Part I Notes</li>
+      after: |
+        <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+    edit:
+      link: https://github.com/TianyiShi2001/part-i-notes/%s
+      text: "Github"
+#bookdown::pdf_book:
+#  keep_tex: no
+#  latex_engine: "xelatex"
+#  includes:
+#    in_header: src/partials/header.tex

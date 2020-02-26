@@ -1,0 +1,11 @@
+(ref:p6) Data Analysis and Intepretation
+
+```{r echo=FALSE, results="asis"}
+if(knitr::is_latex_output()){
+  cat("# (PART) (ref:p6) {-} ")
+} else {
+  cat("# (PART) Data Analysis and Intepretation {-} ")
+}
+```
+
+# An Introduction to Paper VI: Data Analysis and Intepretation {#p6}

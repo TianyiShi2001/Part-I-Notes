@@ -1,0 +1,18 @@
+---
+title: "Part I Notes"
+author: "Tianyi Shi"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+documentclass: book
+bibliography: "main.bib"
+biblio-style: apalike
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(out.width = '100%')
+```
+
+# Preface {-#preface}
+
+Hello there!

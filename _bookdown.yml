@@ -1,0 +1,8 @@
+output_dir: "docs"
+repo: https://github.com/TianyiShi2001/Part-I-Notes/
+language:
+  label:
+    fig: "Fig. "
+    tab: "Table "
+bookdown::html_chapers:
+  css: [src/css/main.css]

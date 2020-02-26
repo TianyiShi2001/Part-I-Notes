@@ -1,0 +1,13 @@
+(ref:p4) Cell Biology and the Integration of Function
+
+```{r echo=FALSE, results="asis"}
+if(knitr::is_latex_output()){
+  cat("# (PART) (ref:p4) {-} ")
+} else {
+  cat("# (PART) Cell Biology and the Integration of Function {-} ")
+}
+```
+
+# An Introduction to Paper IV: Cell Biology and the Integration of Function {#p4}
+
+

@@ -1,0 +1,9 @@
+# (APPENDIX) Appendix {-}
+
+# Physical Principles
+
+## Oscillators and Simple Harmonic Motion
+
+A simple harmonic oscillator has its frequency ($\nu$) independent of amplitude ($a$)
+
+$$m\ddot{x}=-kx$$
