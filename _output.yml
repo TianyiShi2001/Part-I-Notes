@@ -13,8 +13,8 @@ bookdown::gitbook:
     edit:
       link: https://github.com/TianyiShi2001/part-i-notes/%s
       text: "Github"
-#bookdown::pdf_book:
-#  keep_tex: no
-#  latex_engine: "xelatex"
-#  includes:
-#    in_header: src/partials/header.tex
+bookdown::pdf_book:
+  keep_tex: no
+  latex_engine: "xelatex"
+  #includes:
+    #in_header: src/partials/header.tex
