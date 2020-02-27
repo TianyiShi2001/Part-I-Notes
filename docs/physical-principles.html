@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>A Physical Principles | Part I Notes</title>
+  <meta name="description" content="A Physical Principles | Part I Notes" />
+  <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="A Physical Principles | Part I Notes" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A Physical Principles | Part I Notes" />
+  
+  
+  
+
+<meta name="author" content="Tianyi Shi" />
+
+
+<meta name="date" content="2020-02-26" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="p6.html"/>
+<link rel="next" href="oscillators-and-simple-harmonic-motion.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143786170-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143786170-1');
+</script> -->
+<script>
+  (function (d) {
+    var config = {
+      kitId: 'tob8xaq',
+      scriptTimeout: 3000,
+      async: true
+    },
+      h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+  })(document);
+</script>
+<script src="https://hypothes.is/embed.js" async></script>
+
+
+
+<link rel="stylesheet" href="src/css/main.css" type="text/css" />
+<link rel="stylesheet" href="src/css/fonts.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li id="biaoti">Biochemistry Part I Notes</li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="part"><span><b>I Structure and Function of Macromolecules</b></span></li>
+<li class="chapter" data-level="1" data-path="p1.html"><a href="p1.html"><i class="fa fa-check"></i><b>1</b> Paper I: Structure and Function of Macromolecules</a></li>
+<li class="chapter" data-level="2" data-path="physical-methods.html"><a href="physical-methods.html"><i class="fa fa-check"></i><b>2</b> Physical Methods</a><ul>
+<li class="chapter" data-level="2.1" data-path="electromagnetic-radiation.html"><a href="electromagnetic-radiation.html"><i class="fa fa-check"></i><b>2.1</b> Electromagnetic Radiation</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="electromagnetic-radiation.html"><a href="electromagnetic-radiation.html#interaction-of-em-radiation-with-matter"><i class="fa fa-check"></i><b>2.1.1</b> Interaction of EM Radiation with Matter</a></li>
+<li class="chapter" data-level="2.1.2" data-path="electromagnetic-radiation.html"><a href="electromagnetic-radiation.html#scattering"><i class="fa fa-check"></i><b>2.1.2</b> Scattering</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>II Energetics and Metabolic Processes</b></span></li>
+<li class="chapter" data-level="3" data-path="p2.html"><a href="p2.html"><i class="fa fa-check"></i><b>3</b> An Introduction to Paper II: Energetics and Metabolic Processes</a></li>
+<li class="chapter" data-level="4" data-path="bacterial-warfare.html"><a href="bacterial-warfare.html"><i class="fa fa-check"></i><b>4</b> Bacterial Warfare</a><ul>
+<li class="chapter" data-level="4.1" data-path="bacterial-cell-envelope.html"><a href="bacterial-cell-envelope.html"><i class="fa fa-check"></i><b>4.1</b> Bacterial Cell Envelope</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="bacterial-cell-envelope.html"><a href="bacterial-cell-envelope.html#the-outer-membrane-of-gram-negative-bacteria"><i class="fa fa-check"></i><b>4.1.1</b> The outer membrane of Gram-negative bacteria</a></li>
+<li class="chapter" data-level="4.1.2" data-path="bacterial-cell-envelope.html"><a href="bacterial-cell-envelope.html#the-peptidoglycan-cell-wall"><i class="fa fa-check"></i><b>4.1.2</b> The peptidoglycan cell wall</a></li>
+<li class="chapter" data-level="4.1.3" data-path="bacterial-cell-envelope.html"><a href="bacterial-cell-envelope.html#the-inner-membrane"><i class="fa fa-check"></i><b>4.1.3</b> The inner membrane</a></li>
+<li class="chapter" data-level="4.1.4" data-path="bacterial-cell-envelope.html"><a href="bacterial-cell-envelope.html#the-gram-positive-cell-envelope"><i class="fa fa-check"></i><b>4.1.4</b> The Gram-positive cell envelope</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>III Genetics and Molecular Biology</b></span></li>
+<li class="chapter" data-level="5" data-path="p3.html"><a href="p3.html"><i class="fa fa-check"></i><b>5</b> An Introduction to Paper III: Genetics and Molecular Biology</a></li>
+<li class="chapter" data-level="6" data-path="molecular-biology-and-genetics.html"><a href="molecular-biology-and-genetics.html"><i class="fa fa-check"></i><b>6</b> Molecular Biology and Genetics</a></li>
+<li class="chapter" data-level="7" data-path="evolution-of-genes-and-genomes.html"><a href="evolution-of-genes-and-genomes.html"><i class="fa fa-check"></i><b>7</b> Evolution of Genes and Genomes</a><ul>
+<li class="chapter" data-level="7.1" data-path="the-origins-of-life-abiogenesis.html"><a href="the-origins-of-life-abiogenesis.html"><i class="fa fa-check"></i><b>7.1</b> The Origins of Life (Abiogenesis)</a></li>
+<li class="chapter" data-level="7.2" data-path="the-miller-urey-experiments-1952.html"><a href="the-miller-urey-experiments-1952.html"><i class="fa fa-check"></i><b>7.2</b> The Miller-Urey Experiments (1952)</a></li>
+<li class="chapter" data-level="7.3" data-path="rna-world-hypothesis.html"><a href="rna-world-hypothesis.html"><i class="fa fa-check"></i><b>7.3</b> RNA World Hypothesis</a></li>
+<li class="chapter" data-level="7.4" data-path="self-splicing-intron-of-tetrahymena.html"><a href="self-splicing-intron-of-tetrahymena.html"><i class="fa fa-check"></i><b>7.4</b> Self-splicing intron of <em>Tetrahymena</em></a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="molecular-biology-toolbox.html"><a href="molecular-biology-toolbox.html"><i class="fa fa-check"></i><b>8</b> Molecular Biology Toolbox</a><ul>
+<li class="chapter" data-level="8.1" data-path="recombinant-dna.html"><a href="recombinant-dna.html"><i class="fa fa-check"></i><b>8.1</b> Recombinant DNA</a></li>
+<li class="chapter" data-level="8.2" data-path="re-and-ligation-dependent-methods.html"><a href="re-and-ligation-dependent-methods.html"><i class="fa fa-check"></i><b>8.2</b> RE- and ligation-dependent methods</a></li>
+<li class="chapter" data-level="8.3" data-path="other-applications-of-re.html"><a href="other-applications-of-re.html"><i class="fa fa-check"></i><b>8.3</b> Other Applications of RE</a></li>
+<li class="chapter" data-level="8.4" data-path="alternatives-to-re-and-ligase-based-cloning.html"><a href="alternatives-to-re-and-ligase-based-cloning.html"><i class="fa fa-check"></i><b>8.4</b> Alternatives to RE- and ligase-based cloning</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="the-mechanism-of-protein-synthesis-the-ribosome.html"><a href="the-mechanism-of-protein-synthesis-the-ribosome.html"><i class="fa fa-check"></i><b>9</b> The Mechanism of Protein Synthesis: The Ribosome</a><ul>
+<li class="chapter" data-level="9.1" data-path="antibiotics-inhibit-translation.html"><a href="antibiotics-inhibit-translation.html"><i class="fa fa-check"></i><b>9.1</b> Antibiotics inhibit translation</a></li>
+<li class="chapter" data-level="9.2" data-path="aminoacyl-trna-synthesis.html"><a href="aminoacyl-trna-synthesis.html"><i class="fa fa-check"></i><b>9.2</b> Aminoacyl-tRNA synthesis</a></li>
+<li class="chapter" data-level="9.3" data-path="trna-structure.html"><a href="trna-structure.html"><i class="fa fa-check"></i><b>9.3</b> tRNA structure</a></li>
+<li class="chapter" data-level="9.4" data-path="mischarging-the-accuracy-of-matching-amino-acids-to-trnas.html"><a href="mischarging-the-accuracy-of-matching-amino-acids-to-trnas.html"><i class="fa fa-check"></i><b>9.4</b> Mischarging: the accuracy of matching amino acids to tRNAs</a></li>
+<li class="chapter" data-level="9.5" data-path="the-structure-of-the-70s-ribosome.html"><a href="the-structure-of-the-70s-ribosome.html"><i class="fa fa-check"></i><b>9.5</b> The structure of the 70S ribosome</a></li>
+</ul></li>
+<li class="part"><span><b>IV Cell Biology and the Integration of Function</b></span></li>
+<li class="chapter" data-level="10" data-path="p4.html"><a href="p4.html"><i class="fa fa-check"></i><b>10</b> An Introduction to Paper IV: Cell Biology and the Integration of Function</a></li>
+<li class="part"><span><b>V General Paper</b></span></li>
+<li class="chapter" data-level="11" data-path="p5.html"><a href="p5.html"><i class="fa fa-check"></i><b>11</b> An Introduction to Paper V: General Paper</a></li>
+<li class="part"><span><b>VI Data Analysis and Intepretation</b></span></li>
+<li class="chapter" data-level="12" data-path="p6.html"><a href="p6.html"><i class="fa fa-check"></i><b>12</b> An Introduction to Paper VI: Data Analysis and Intepretation</a></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="physical-principles.html"><a href="physical-principles.html"><i class="fa fa-check"></i><b>A</b> Physical Principles</a><ul>
+<li class="chapter" data-level="A.1" data-path="oscillators-and-simple-harmonic-motion.html"><a href="oscillators-and-simple-harmonic-motion.html"><i class="fa fa-check"></i><b>A.1</b> Oscillators and Simple Harmonic Motion</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Part I Notes</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="physical-principles" class="section level1">
+<h1><span class="header-section-number">A</span> Physical Principles</h1> 
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="p6.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="oscillators-and-simple-harmonic-motion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/TianyiShi2001/part-i-notes/07-appendix.Rmd",
+"text": "Github"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
