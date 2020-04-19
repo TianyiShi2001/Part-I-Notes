@@ -13,7 +13,7 @@ if(knitr::is_latex_output()){
 # Physical Methods {#physical-methods}
 
 Course aims:
- 
+
 - This course of 10 lectures introduces the principles and applications of biophysical tools that give information about the structure, dynamics and interactions of biological molecules, primarily in vitro but also in vivo. 
  
 - The techniques we describe mainly involve irradiating the specimen with electromagnetic radiation. They include: scattering (e.g. SAXS, SANS, DLS); refraction related phenomena (e.g. SPR); X-ray diffraction/crystallography; absorption and emission spectra (e.g. UV/visible, CD, fluorescence); magnetic resonance (NMR & MRI); microscopy and experiments on single molecules (single pair FRET, optical ‘tweezers’ etc.). Other important biophysical methods, such as analytical ultracentrifugation, calorimetry and mass spectrometry, will be covered in other lecture courses.

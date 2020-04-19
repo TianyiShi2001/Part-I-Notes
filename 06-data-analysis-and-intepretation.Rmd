@@ -9,3 +9,6 @@ if(knitr::is_latex_output()){
 ```
 
 # An Introduction to Paper VI: Data Analysis and Intepretation {#p6}
+
+| foo  |  bar | fantasy |
+| :--- | ---: | :-----: |
